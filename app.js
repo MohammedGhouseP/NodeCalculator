@@ -14,9 +14,9 @@ if (operation === 'subtract') {
 }
 if (operation === 'multiply') {
     console.log(operation + ' is ' 
-        + (operator1 + operator2));
+        + (operator1 * operator2));
 }
 if (operation === 'divide') {
     console.log(operation + ' is ' 
-        + (operator1 - operator2));
+        + (operator1 / operator2));
 }
